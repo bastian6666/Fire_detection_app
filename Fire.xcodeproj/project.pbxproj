@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036043062743242D00104979 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036043052743242D00104979 /* MapViewController.swift */; };
+		03C283A12744168400D40F33 /* Fire.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03C283A02744168400D40F33 /* Fire.mlmodel */; };
 		03F81E012741923E00508A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E002741923E00508A33 /* AppDelegate.swift */; };
 		03F81E032741923E00508A33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E022741923E00508A33 /* SceneDelegate.swift */; };
 		03F81E052741923E00508A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E042741923E00508A33 /* ViewController.swift */; };
 		03F81E082741923E00508A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E062741923E00508A33 /* Main.storyboard */; };
-		03F81E0A2741924000508A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E092741924000508A33 /* Assets.xcassets */; };
 		03F81E0D2741924000508A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E0B2741924000508A33 /* LaunchScreen.storyboard */; };
 		03F81E182741924000508A33 /* FireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E172741924000508A33 /* FireTests.swift */; };
 		03F81E222741924000508A33 /* FireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E212741924000508A33 /* FireUITests.swift */; };
 		03F81E242741924000508A33 /* FireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E232741924000508A33 /* FireUITestsLaunchTests.swift */; };
+		03F81E312741929300508A33 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03F81E302741929300508A33 /* Resnet50.mlmodel */; };
+		03F81E332741954C00508A33 /* planet-earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E322741954C00508A33 /* planet-earth.png */; };
+		03F81E34274198CE00508A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E092741924000508A33 /* Assets.xcassets */; };
+		03F81E3827419D3F00508A33 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E3727419D3F00508A33 /* AppIcon.appiconset */; };
+		03F81E3A27419F6F00508A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E3927419F6F00508A33 /* Assets.xcassets */; };
+		03F81E3C27419F9900508A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F81E3B27419F9800508A33 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036043052743242D00104979 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		03C283A02744168400D40F33 /* Fire.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Fire.mlmodel; sourceTree = "<group>"; };
 		03F81DFD2741923E00508A33 /* Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F81E002741923E00508A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F81E022741923E00508A33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		03F81E1D2741924000508A33 /* FireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F81E212741924000508A33 /* FireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireUITests.swift; sourceTree = "<group>"; };
 		03F81E232741924000508A33 /* FireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03F81E302741929300508A33 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		03F81E322741954C00508A33 /* planet-earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planet-earth.png"; sourceTree = "<group>"; };
+		03F81E3727419D3F00508A33 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		03F81E3927419F6F00508A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F81E3B27419F9800508A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,20 @@
 		03F81DFF2741923E00508A33 /* Fire */ = {
 			isa = PBXGroup;
 			children = (
+				03C283A02744168400D40F33 /* Fire.mlmodel */,
+				03F81E3727419D3F00508A33 /* AppIcon.appiconset */,
+				03F81E322741954C00508A33 /* planet-earth.png */,
+				03F81E302741929300508A33 /* Resnet50.mlmodel */,
 				03F81E002741923E00508A33 /* AppDelegate.swift */,
 				03F81E022741923E00508A33 /* SceneDelegate.swift */,
 				03F81E042741923E00508A33 /* ViewController.swift */,
 				03F81E062741923E00508A33 /* Main.storyboard */,
+				036043052743242D00104979 /* MapViewController.swift */,
 				03F81E092741924000508A33 /* Assets.xcassets */,
 				03F81E0B2741924000508A33 /* LaunchScreen.storyboard */,
+				03F81E3B27419F9800508A33 /* Assets.xcassets */,
 				03F81E0E2741924000508A33 /* Info.plist */,
+				03F81E3927419F6F00508A33 /* Assets.xcassets */,
 			);
 			path = Fire;
 			sourceTree = "<group>";
@@ -231,8 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F81E332741954C00508A33 /* planet-earth.png in Resources */,
 				03F81E0D2741924000508A33 /* LaunchScreen.storyboard in Resources */,
-				03F81E0A2741924000508A33 /* Assets.xcassets in Resources */,
+				03F81E34274198CE00508A33 /* Assets.xcassets in Resources */,
+				03F81E3827419D3F00508A33 /* AppIcon.appiconset in Resources */,
+				03F81E3C27419F9900508A33 /* Assets.xcassets in Resources */,
+				03F81E3A27419F6F00508A33 /* Assets.xcassets in Resources */,
 				03F81E082741923E00508A33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +285,9 @@
 			files = (
 				03F81E052741923E00508A33 /* ViewController.swift in Sources */,
 				03F81E012741923E00508A33 /* AppDelegate.swift in Sources */,
+				03F81E312741929300508A33 /* Resnet50.mlmodel in Sources */,
+				036043062743242D00104979 /* MapViewController.swift in Sources */,
+				03C283A12744168400D40F33 /* Fire.mlmodel in Sources */,
 				03F81E032741923E00508A33 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3CH7VR82WF;
@@ -465,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3CH7VR82WF;
